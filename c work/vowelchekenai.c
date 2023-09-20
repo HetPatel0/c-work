@@ -3,7 +3,8 @@ void main() {
 char c;
 printf("Enter your aplhabet");
 scanf("%c",&c);
-if(c == 'a'||c =='e'||c == 'i'||c== 'o'||c == 'u'||c == 'A'||c =='E'||c == 'I'||c== 'O'||c == 'U'){
+if(c == 'a'||c =='e'||c == 'i'||c== 'o'||c == 'u'){
+//||c == 'A'||c =='E'||c == 'I'||c== 'O'||c == 'U'){
 	printf("It's a vowel");
 	
 } 
